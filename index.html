@@ -77,66 +77,55 @@
     <form action="https://formsubmit.co/JessicaNoqs@gmail.com" method="POST">
 <input type="hidden" name="_captcha" value="false">
       <label>Full Name</label>
-      <input type="text" placeholder="Your name" required />
-
+     <input type="text" name="Full Name" required>
       <label>Email Address</label>
-      <input type="email" placeholder="you@email.com" required />
-
+      <input type="email" name="Email" required>
       <label>Phone Number</label>
-      <input type="tel" placeholder="Phone number" required />
-
+      <input type="tel" name="Phone Number" required>
       <label>Service Address</label>
-      <textarea placeholder="Enter address" required></textarea>
-
+      <textarea name="Service Address" required></textarea>
       <label>Type of Cleaning</label>
-      <select required>
+      <select name="Type of Cleaning" required>
         <option>Standard Cleaning</option>
         <option>Deep Cleaning</option>
         <option>Office Cleaning</option>
         <option>Move In / Move Out</option>
       </select>
-
       <label>Preferred Date</label>
-      <input type="date" required />
-
+      <input type="date" name="Preferred Date" required>
       <label>Additional Notes</label>
-      <textarea placeholder="Any special instructions?"></textarea>
-
+      <textarea name="Additional Notes"></textarea>
       <button type="submit">Submit Booking Request</button>
     </form>
   </div>
-
   <div class="card">
     <h2>Apply to Be a Cleaner</h2>
-    <form action="https://formsubmit.co/JessicaNoqs@gmail.com" method="POST">
-<input type="hidden" name="_captcha" value="false">
+    <form action="https://formsubmit.co/JessicaNoqs@gmail.com" method="POST" enctype="multipart/form-data">
+<input type="text" name="Full Name" required>
       <label>Full Name</label>
-      <input type="text" required />
-
+     <input type="text" name="Full Name" required>
       <label>Email Address</label>
-      <input type="email" required />
+      <input type="email" name="Email" required>
 
       <label>Phone Number</label>
-      <input type="tel" required />
-
+      <input type="tel" name="Phone Number" required>
       <label>Location</label>
-      <input type="text" required />
+      <input type="text" name="Location" required>
 
       <label>Cleaning Experience</label>
-      <textarea placeholder="Describe your experience" required></textarea>
-
+      <textarea name="Cleaning Experience" required></textarea>
       <label>Availability</label>
-      <input type="text" placeholder="Days and times available" required />
+      <input type="text" name="Availability" required>
 
       <label>Background Check Consent</label>
-      <select required>
+      <select name="Background Check Consent" required>
         <option value="">Select</option>
         <option>Yes, I consent</option>
         <option>No</option>
       </select>
 
       <label>Upload Resume (optional)</label>
-      <input type="file" />
+      <input type="file" name="Resume">
 
       <button type="submit">Submit Application</button>
     </form>
