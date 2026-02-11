@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inhlanzeko Cleaning Solutions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f7f9;
+      color: #333;
+    }
+    header {
+      background-color: #0a3d62;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #0a3d62;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button {
+      margin-top: 20px;
+      padding: 12px 20px;
+      background-color: #0a3d62;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #07507d;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Inhlanzeko Cleaning Solutions</h1>
+  <p>Professional Cleaning Services by Nonhlanzeko</p>
+</header>
+
+<section>
+  <div class="card">
+    <h2>Book Our Cleaning Services</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label>Full Name</label>
+      <input type="text" placeholder="Your name" required />
+
+      <label>Email Address</label>
+      <input type="email" placeholder="you@email.com" required />
+
+      <label>Phone Number</label>
+      <input type="tel" placeholder="Phone number" required />
+
+      <label>Service Address</label>
+      <textarea placeholder="Enter address" required></textarea>
+
+      <label>Type of Cleaning</label>
+      <select required>
+        <option>Standard Cleaning</option>
+        <option>Deep Cleaning</option>
+        <option>Office Cleaning</option>
+        <option>Move In / Move Out</option>
+      </select>
+
+      <label>Preferred Date</label>
+      <input type="date" required />
+
+      <label>Additional Notes</label>
+      <textarea placeholder="Any special instructions?"></textarea>
+
+      <button type="submit">Submit Booking Request</button>
+    </form>
+  </div>
+
+  <div class="card">
+    <h2>Apply to Be a Cleaner</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <label>Full Name</label>
+      <input type="text" required />
+
+      <label>Email Address</label>
+      <input type="email" required />
+
+      <label>Phone Number</label>
+      <input type="tel" required />
+
+      <label>Location</label>
+      <input type="text" required />
+
+      <label>Cleaning Experience</label>
+      <textarea placeholder="Describe your experience" required></textarea>
+
+      <label>Availability</label>
+      <input type="text" placeholder="Days and times available" required />
+
+      <label>Background Check Consent</label>
+      <select required>
+        <option value="">Select</option>
+        <option>Yes, I consent</option>
+        <option>No</option>
+      </select>
+
+      <label>Upload Resume (optional)</label>
+      <input type="file" />
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Inhlanzeko Cleaning Solutions</p>
+  <p>Booking and applications are sent directly to our email.</p>
+</footer>
+
+</body>
+</html>
